@@ -1,0 +1,10 @@
+Shader.source[document.currentScript.src.split('js/shaders/')[1]] = `
+	precision highp float;
+    varying vec3 color;
+    uniform vec3 solidColor;
+    uniform float elapsedTime;
+    uniform float pulseFrequency;
+    void main(void) {
+		gl_FragColor = vec4(1, 1, 1, 1); //(color * solidColor * cos(elapsedTime * pulseFrequency), 1);
+	}
+`;
