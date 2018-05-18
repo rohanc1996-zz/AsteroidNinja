@@ -1,5 +1,0 @@
-For my final project I will be making an infinite scrolling game.
-Set in space, the avatar will be a rocketship and it has to navigate it's way around asteroids while collecting power-ups and bonuses.
-Game-over if it crashes with an asteroid.
-I will also add a blaster to the rocket, so it can destroy a limited number of asteroids in its collision-course.
-The rocketship can move in any direction and navigate it's way around as it deems fit, within a certain scope (that has the asteroids).
